@@ -36,9 +36,4 @@ Clone the repository.
 Install dependencies using npm install.
 Start the development server with npm start.
 Access the application in your browser at http://localhost:3000.
-Authors
-[Your Name]
-Acknowledgements
-This project was developed as part of [Company Name]'s requirements.
-Special thanks to [Instructor/Supervisor Name] for guidance and support.
-Feel free to reach out if you have any questions or concerns!
+
