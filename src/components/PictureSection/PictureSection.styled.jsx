@@ -51,7 +51,7 @@ export const PicturePositionWrap = styled.div`
     gap: 15px;
 
     img {
-      max-width: 400px; 
+      max-width: 250px; 
     }
   }
 
