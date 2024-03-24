@@ -37,29 +37,35 @@ export const SectionWrap = styled.div`
 export const PicturePositionWrap = styled.div`
   display: flex;
   justify-content: center; 
-  gap: 15px; 
   margin: 25px 0;
 
   img {
-    width: 100%;
-    max-width: 150px; 
+    width: 150px; 
     height: auto;
     object-fit: cover;
   }
 
-  @media screen and (min-width: 768px) {
-    gap: 15px;
+  img:not(:last-child) {
+    margin-right: 25px; 
+  }
 
+  @media screen and (min-width: 768px) {
     img {
-      max-width: 250px; 
+      width: 250px; 
+    }
+
+    img:not(:last-child) {
+      margin-right: 25px; 
     }
   }
 
   @media screen and (min-width: 1440px) {
-    gap: 25px;
-
     img {
-      max-width: 400px; 
+      width: 410px; 
+    }
+
+    img:not(:last-child) {
+      margin-right: 20px; 
     }
   }
 `;
