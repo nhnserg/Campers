@@ -1,4 +1,13 @@
 import { PiWind } from 'react-icons/pi';
+import {
+  KitchenIcon,
+  ShowerIcon,
+  TVIcon,
+  TransmissionIcon,
+  Van1Icon,
+  Van2Icon,
+  Van3Icon,
+} from '../components/icons';
 
 export const FORM_INIT_VALUES = {
   name: '',
@@ -46,25 +55,25 @@ export const FILTERS_EQUIPMENT = [
   {
     name: 'transmission',
     value: 'automatic',
-    icon: 'icon-transmission',
+    icon: TransmissionIcon,
     text: 'Automatic',
   },
   {
     name: 'kitchen',
     value: '1',
-    icon: 'icon-kitchen',
+    icon: KitchenIcon,
     text: 'Kitchen',
   },
   {
     name: 'TV',
     value: '1',
-    icon: 'icon-tv',
+    icon: TVIcon,
     text: 'TV',
   },
   {
     name: 'shower',
     value: '1',
-    icon: 'icon-shower',
+    icon: ShowerIcon,
     text: 'Shower/WC',
   },
 ];
@@ -72,17 +81,17 @@ export const FILTERS_EQUIPMENT = [
 export const FILTERS_TYPE = [
   {
     value: 'panelTruck',
-    icon: 'Van1Icon',
+    icon: Van1Icon,
     text: 'Van',
   },
   {
     value: 'fullyIntegrated',
-    icon: 'Van2Icon',
+    icon: Van2Icon,
     text: 'Fully Integrated',
   },
   {
     value: 'alcove',
-    icon: 'Van3Icon',
+    icon: Van3Icon,
     text: 'Alcove',
   },
 ];

@@ -66,8 +66,8 @@ const AdverCard = ({ card }) => {
                         <Icon
                             width={20}
                             height={20}
-                            svg="icon-star"
                             fillColor={"var(--accent-orange)"}
+                            svg="icon-star"
                         />
                         <button
                             type="button"
