@@ -78,6 +78,7 @@ export const CardItem = styled.li`
 
   @media screen and (min-width: 1440px) {
     padding: 24px;
+    width: 888px;
   }
 `;
 
@@ -134,18 +135,18 @@ export const PriceWrap = styled.div`
 export const AddToFavBtn = styled.button`
   svg {
     fill: ${({ $isFavorite }) =>
-        $isFavorite ? "var(--accent-red)" : "transparent"};
+    $isFavorite ? "var(--accent-red)" : "transparent"};
     stroke: ${({ $isFavorite }) =>
-        $isFavorite ? "none" : "var(--text-color)"};
+    $isFavorite ? "none" : "var(--text-color)"};
     transition: fill var(--cubic-transition);
   }
 
   @media screen and (min-width: 1440px) {
     &:hover svg {
       fill: ${({ $isFavorite }) =>
-        $isFavorite ? "transparent" : "var(--accent-red)"};
+    $isFavorite ? "transparent" : "var(--accent-red)"};
       stroke: ${({ $isFavorite }) =>
-        $isFavorite ? "var(--text-color)" : "var(--accent-red)"};
+    $isFavorite ? "var(--text-color)" : "var(--accent-red)"};
     }
   }
 `;

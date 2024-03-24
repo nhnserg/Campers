@@ -7,7 +7,7 @@ import {
     VehicleDetailsWrap,
     VehicleDetailsList,
 } from "./Features.styled";
-import Icon from "../../icons/Icon";
+import Icon from "../../icons/Icons";
 
 const Features = ({
     card: {

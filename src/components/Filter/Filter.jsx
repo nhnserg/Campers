@@ -14,7 +14,7 @@ import {
     InputWrap,
     ButtonsWrap,
 } from "./Filter.styled";
-import Icon from "../icons/Icon";
+import { Icon } from "components/icons";
 
 const FiltersForm = ({ setPage, searchParams, setSearchParams }) => {
     const [filterParams, setFilterParams] = useState({});

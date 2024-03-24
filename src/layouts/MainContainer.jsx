@@ -10,11 +10,11 @@ export const MainContainer = styled.div`
         
     }
     @media screen and (min-width: 768px) {
-        max-width: 736px;
+        max-width: 1312px;
         
     }
     @media screen and (min-width: 375) {
-        max-width: 1272px;
+        max-width: 1312px;
         
     }
 `

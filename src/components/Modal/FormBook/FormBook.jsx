@@ -14,7 +14,7 @@ import {
     TitleBlock,
 } from "./FormBook.styled";
 import { TOASTER_CONFIG } from "../../../constants/index";
-import Icon from "../../icons/Icon";
+import Icon from "../../icons/Icons";
 
 const FormBook = () => {
     const dispatch = useDispatch();

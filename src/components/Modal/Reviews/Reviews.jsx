@@ -8,7 +8,7 @@ import {
     StarsList,
 } from "./Reviews.styled";
 import { FeatureReviewsWrap } from "../Features/Features.styled";
-import Icon from "../../icons/Icon";
+import Icon from "../../icons/Icons";
 
 const Reviews = ({ card }) => {
     return (

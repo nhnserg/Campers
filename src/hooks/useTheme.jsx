@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { lightTheme, darkTheme } from "../assets/theme/index";
+import { lightTheme, darkTheme } from "../assets/theme/theme";
 import { ThemeContext } from "../contexts";
 
 const useTheme = () => {

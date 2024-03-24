@@ -9,76 +9,68 @@ const PicturesSection = () => {
     return (
         <PictureSection>
             <MainContainer>
-                <SectionWrap>
+
+                <TextBlock>
                     <div>
+                        <h2>Welcome to the Camper Rental Application!</h2>
+
+                        <p>
+                            About Us
+                            We offer a wide selection of campers for rent throughout Ukraine. Our company aims to provide customers with unforgettable adventures and comfortable outdoor experiences.
+
+                            Catalog
+                            In our catalog, you'll find campers of various configurations and types that suit your needs and preferences. You can easily filter campers by location, equipment, and type to find the perfect option for your journey.
+
+                            Favorites
+                            Save your favorite campers in the "Favorites" section to easily find them later and review additional information.
+
+                            Detailed Information and Booking
+                            When selecting a camper, you can view detailed information about it and read reviews from other users. After making your selection, you can book the camper by filling out a convenient booking form.
+                        </p>
+
+                        <p id="additional-info">
+                            Filtering and Searching
+                            For your convenience, you can use filters to search for campers by location, equipment, and type. Text search by name or description of the camper is also available.
+
+                            Start Your Adventure Now!
+                            Choose your perfect camper and embark on an unforgettable journey with our camper rental application. Enjoy comfort and freedom of movement with us!
+
+                            Ready for adventure? Start now! 🚐💨
+                        </p>
+                    </div>
+                </TextBlock>
+                <SectionWrap>
+                    <PicturePositionWrap>
                         <img
                             src={CamperMountains}
                             alt="campervan in the mountains"
-                            width={300}
-                            height={500}
+                            width={150}
+                            height={300}
                         />
 
-                        <PicturePositionWrap>
-                            <img
-                                src={CamperCouple}
-                                alt="couple sitting next to campervan"
-                                width={300}
-                                height={500}
-                            />
-                            <img
-                                src={CamperForest}
-                                alt="campervan in the forest"
-                                width={300}
-                                height={500}
-                            />
-                        </PicturePositionWrap>
 
+                        <img
+                            src={CamperCouple}
+                            alt="couple sitting next to campervan"
+                            width={150}
+                            height={300}
+                        />
+                        <img
+                            src={CamperForest}
+                            alt="campervan in the forest"
+                            width={150}
+                            height={300}
+                        />
                         <img
                             src={CamperSea}
                             alt="campervan on the sea"
-                            width={300}
-                            height={500}
+                            width={150}
+                            height={300}
                         />
-                    </div>
-
-                    <TextBlock>
-                        <div>
-                            <h2>Lorem ipsum dolor uatur</h2>
-
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Laboriosam, perferendis eaque minus labore in, impedit quae
-                                aperiam odit illo quas debitis cumque commodi harum dolores
-                                sapiente repudiandae explicabo, sequi provident. Lorem ipsum
-                                dolor sit amet consectetur adipisicing elit. Nulla impedit neque
-                                magnam cum maxime perferendis id aspernatur quo sapiente
-                                voluptatibus excepturi repellendus mollitia sequi numquam
-                                placeat ab sit, aperiam possimus! Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. Fugiat, officia maxime vero itaque
-                                voluptate quisquam nisi exercitationem sed? Odio animi
-                                asperiores accusamus labore nisi! Ducimus cumque asperiores
-                                assumenda quisquam distinctio.lorem
-                            </p>
-
-                            <p id="additional-info">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Laboriosam, perferendis eaque minus labore in, impedit quae
-                                aperiam odit illo quas debitis cumque commodi harum dolores
-                                sapiente repudiandae explicabo, sequi provident. Lorem ipsum
-                                dolor sit amet consectetur adipisicing elit. Nulla impedit neque
-                                magnam cum maxime perferendis id aspernatur quo sapiente
-                                voluptatibus excepturi repellendus mollitia sequi numquam
-                                placeat ab sit, aperiam possimus! Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. Fugiat, officia maxime vero itaque
-                                voluptate quisquam nisi exercitationem sed? Odio animi
-                                asperiores accusamus labore nisi! Ducimus cumque asperiores
-                                assumenda quisquam distinctio.lorem
-                            </p>
-                        </div>
-                    </TextBlock>
+                    </PicturePositionWrap>
                 </SectionWrap>
             </MainContainer>
-        </PictureSection>
+        </PictureSection >
     );
 };
 

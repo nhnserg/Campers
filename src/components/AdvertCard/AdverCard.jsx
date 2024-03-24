@@ -14,7 +14,7 @@ import {
     ShowBtn,
     AddToFavBtn,
 } from './AdvertCard.styled';
-import Icon from '../icons/Icon';
+import Icon from '../icons/Icons';
 import { useDispatch, useSelector } from 'react-redux';
 import { useMemo, useState } from 'react';
 import Modal from '../Modal/Modal';
@@ -93,7 +93,7 @@ const AdverCard = ({ card }) => {
 
                 <DetailsList>
                     <li>
-                        <Icon width={20} height={20} svg={"icon-adults"} />
+                        <Icon width={20} height={20} svg="icon-adults" />
                         {card.adults} adults
                     </li>
 

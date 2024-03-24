@@ -18,7 +18,7 @@ import {
     RatingWrap,
     Title,
 } from "../AdvertCard/AdvertCard.styled";
-import Icon from "../icons/Icon";
+import Icon from "../icons/Icons";
 
 const Modal = ({
     card,

@@ -19,7 +19,8 @@ export const SectionWrap = styled.div`
     justify-content: space-between;
 
     img {
-      width: 400px;
+      width: calc(25% - 15px); /* Adjust width to fit 4 images per row with gap */
+      max-width: 400px; /* Set maximum width for larger screens */
     }
   }
 
@@ -27,21 +28,30 @@ export const SectionWrap = styled.div`
     gap: 25px;
 
     img {
-      width: 700px;
-      height: 700px;
+      width: calc(20% - 25px); /* Adjust width to fit 5 images per row with gap */
+      max-width: 700px; /* Set maximum width for larger screens */
     }
   }
 `;
 
 export const PicturePositionWrap = styled.div`
+  display: flex;
+  gap: 15px;
+  margin: 25px 0;
+
+  img {
+    width: 100%;
+    max-width: 100%; 
+    object-fit: cover;
+    height: auto; 
+  }
+
   @media screen and (min-width: 1440px) {
-    display: flex;
     gap: 25px;
-    margin: 25px 0;
 
     img {
-      width: 335px;
-      height: 450px;
+      width: 25%; 
+      max-width: 23%; 
     }
   }
 `;
