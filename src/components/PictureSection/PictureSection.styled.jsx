@@ -19,8 +19,8 @@ export const SectionWrap = styled.div`
     justify-content: space-between;
 
     img {
-      width: calc(25% - 15px); /* Adjust width to fit 4 images per row with gap */
-      max-width: 400px; /* Set maximum width for larger screens */
+      width: calc(25% - 15px); 
+      max-width: 400px; 
     }
   }
 
@@ -28,30 +28,38 @@ export const SectionWrap = styled.div`
     gap: 25px;
 
     img {
-      width: calc(20% - 25px); /* Adjust width to fit 5 images per row with gap */
-      max-width: 700px; /* Set maximum width for larger screens */
+      width: calc(20% - 25px); 
+      max-width: 700px; 
     }
   }
 `;
 
 export const PicturePositionWrap = styled.div`
   display: flex;
-  gap: 15px;
+  justify-content: center; 
+  gap: 15px; 
   margin: 25px 0;
 
   img {
     width: 100%;
-    max-width: 100%; 
+    max-width: 150px; 
+    height: auto;
     object-fit: cover;
-    height: auto; 
+  }
+
+  @media screen and (min-width: 768px) {
+    gap: 15px;
+
+    img {
+      max-width: 150px; 
+    }
   }
 
   @media screen and (min-width: 1440px) {
     gap: 25px;
 
     img {
-      width: 25%; 
-      max-width: 23%; 
+      max-width: 400px; 
     }
   }
 `;
