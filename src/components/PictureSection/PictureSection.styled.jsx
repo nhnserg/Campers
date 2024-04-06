@@ -51,7 +51,7 @@ export const PicturePositionWrap = styled.div`
 
   @media screen and (min-width: 768px) {
     img {
-      width: 250px; 
+      width: 300px; 
     }
 
     img:not(:last-child) {
@@ -61,7 +61,7 @@ export const PicturePositionWrap = styled.div`
 
   @media screen and (min-width: 1440px) {
     img {
-      width: 410px; 
+      width: 400px; 
     }
 
     img:not(:last-child) {

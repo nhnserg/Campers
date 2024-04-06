@@ -47,7 +47,7 @@ export const NavigLink = styled(NavLink)`
         color: var(--white);
     }
     
-    #fav-icon {
+    svg {
      fill:none ;
      stroke: var(--text-color);
     }

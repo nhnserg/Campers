@@ -2,6 +2,7 @@ import { useSelector } from 'react-redux'
 import { selectFavorites } from '../../redux/adverts/selectors'
 import { MainContainer } from '../../layouts/MainContainer'
 import { HeaderBlock, Nav, NavigLink } from './Header.styled'
+import { Icon } from 'components/icons';
 
 const Header = () => {
     const Favorites = useSelector(selectFavorites);
@@ -22,7 +23,7 @@ const Header = () => {
                         <li>
                             <NavigLink id="favs" to="/favorites">
                                 {Favorites.length > 0 && <div>{Favorites.length}</div>}
-                                Favorites
+                                <Icon width={30} height={30} svg={"icon-fav"} />
                             </NavigLink>
                         </li>
                     </ul>

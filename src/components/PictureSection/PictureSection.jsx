@@ -41,27 +41,25 @@ const PicturesSection = () => {
                 <SectionWrap>
                     <PicturePositionWrap>
                         <div>
-
                             <img
                                 src={CamperCouple}
                                 alt="couple sitting next to campervan"
-                                width={150}
+                                width={200}
                                 height={300}
                             />
-
-
                             <img
                                 src={CamperForest}
                                 alt="campervan in the forest"
-                                width={150}
+                                width={200}
                                 height={300}
                             />
                             <img
                                 src={CamperSea}
                                 alt="campervan on the sea"
-                                width={150}
+                                width={200}
                                 height={300}
                             />
+
                         </div>
                     </PicturePositionWrap>
                 </SectionWrap>
